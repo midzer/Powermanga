@@ -1,0 +1,18 @@
+[
+    "main",
+    "initialize_and_run",
+    "inits_game",
+    "display_initialize",
+    "display_init",
+    "init_video_mode",
+    "main_loop_iteration",
+    "display_update_window",
+    "display_movie",
+    "display_scale_x",
+    "SDL_Delay",
+    "SDL_UpdateWindowSurface",
+    "GLES2_RenderPresent",
+    "Emscripten_UpdateWindowFramebuffer",
+    "Emscripten_GLES_SwapWindow",
+    "dynCall_v"
+]

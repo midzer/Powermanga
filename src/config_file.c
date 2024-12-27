@@ -50,9 +50,9 @@ static void configfile_reset_values ();
 void
 configfile_reset_values ()
 {
-  power_conf->fullscreen = TRUE;
+  power_conf->fullscreen = FALSE;
   power_conf->nosound = FALSE;
-  power_conf->resolution = 640;
+  power_conf->resolution = 320;
   power_conf->verbose = 0;
   power_conf->difficulty = 1;
   power_conf->scale_x = 2;

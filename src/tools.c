@@ -1142,13 +1142,10 @@ wait_next_frame (Sint32 delay, Sint32 max)
     {
       delay = max;
     }
-#ifndef __EMSCRIPTEN__
   if (delay > 0)
     {
-      /* Emscripten: must remove all SDL_Delay */
       SDL_Delay (delay);
     }
-#endif
   return (delay > 0 ? delay : 0);
 #else
   struct timeval temps;

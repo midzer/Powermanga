@@ -1,0 +1,11 @@
+[
+    "main",
+    "init_video_mode",
+    "main_loop_iteration",
+    "SDL_Delay",
+    "SDL_UpdateWindowSurface",
+    "GLES2_RenderPresent",
+    "Emscripten_UpdateWindowFramebuffer",
+    "Emscripten_GLES_SwapWindow",
+    "dynCall_v"
+]
